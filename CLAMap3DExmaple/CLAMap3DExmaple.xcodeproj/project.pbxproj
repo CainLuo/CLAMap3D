@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFE2F78C20BE36A700F22E00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE2F78B20BE36A700F22E00 /* AppDelegate.m */; };
+		BFE2F79420BE36A800F22E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE2F79320BE36A800F22E00 /* Assets.xcassets */; };
+		BFE2F79720BE36A800F22E00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE2F79520BE36A800F22E00 /* LaunchScreen.storyboard */; };
+		BFE2F79A20BE36A800F22E00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE2F79920BE36A800F22E00 /* main.m */; };
+		BFE2F7F020BE4D2600F22E00 /* CLAMapViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE2F7E920BE4D2600F22E00 /* CLAMapViewModel.m */; };
+		BFE2F7F120BE4D2600F22E00 /* CLAMapDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE2F7EB20BE4D2600F22E00 /* CLAMapDelegate.m */; };
+		BFE2F7F220BE4D2600F22E00 /* CLAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE2F7EE20BE4D2600F22E00 /* CLAMapViewController.m */; };
+		BFE2F7FF20BE4D3A00F22E00 /* EXAMapDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE2F7F820BE4D3A00F22E00 /* EXAMapDelegate.m */; };
+		BFE2F80020BE4D3A00F22E00 /* EXAMapViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE2F7FA20BE4D3A00F22E00 /* EXAMapViewModel.m */; };
+		BFE2F80120BE4D3A00F22E00 /* EXAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE2F7FE20BE4D3A00F22E00 /* EXAMapViewController.m */; };
+		DFD741507F31AC20247A8A58 /* Pods_CLAMap3DExmaple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F696BC095342228976247E5C /* Pods_CLAMap3DExmaple.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06F15AB071E932E564AC221A /* Pods-CLAMap3DExmaple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLAMap3DExmaple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CLAMap3DExmaple/Pods-CLAMap3DExmaple.debug.xcconfig"; sourceTree = "<group>"; };
+		BFE2F78720BE36A700F22E00 /* CLAMap3DExmaple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLAMap3DExmaple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE2F78A20BE36A700F22E00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFE2F78B20BE36A700F22E00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFE2F79320BE36A800F22E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFE2F79620BE36A800F22E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFE2F79820BE36A800F22E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE2F79920BE36A800F22E00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFE2F7A120BE3E0B00F22E00 /* CLAMap3DExmaple-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLAMap3DExmaple-PrefixHeader.pch"; sourceTree = "<group>"; };
+		BFE2F7E520BE4D2600F22E00 /* CLAMap3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAMap3D.h; sourceTree = "<group>"; };
+		BFE2F7E820BE4D2600F22E00 /* CLAMapViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAMapViewModel.h; sourceTree = "<group>"; };
+		BFE2F7E920BE4D2600F22E00 /* CLAMapViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAMapViewModel.m; sourceTree = "<group>"; };
+		BFE2F7EB20BE4D2600F22E00 /* CLAMapDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAMapDelegate.m; sourceTree = "<group>"; };
+		BFE2F7EC20BE4D2600F22E00 /* CLAMapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAMapDelegate.h; sourceTree = "<group>"; };
+		BFE2F7EE20BE4D2600F22E00 /* CLAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAMapViewController.m; sourceTree = "<group>"; };
+		BFE2F7EF20BE4D2600F22E00 /* CLAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAMapViewController.h; sourceTree = "<group>"; };
+		BFE2F7F720BE4D3A00F22E00 /* EXAMapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXAMapDelegate.h; sourceTree = "<group>"; };
+		BFE2F7F820BE4D3A00F22E00 /* EXAMapDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXAMapDelegate.m; sourceTree = "<group>"; };
+		BFE2F7FA20BE4D3A00F22E00 /* EXAMapViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXAMapViewModel.m; sourceTree = "<group>"; };
+		BFE2F7FB20BE4D3A00F22E00 /* EXAMapViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXAMapViewModel.h; sourceTree = "<group>"; };
+		BFE2F7FD20BE4D3A00F22E00 /* EXAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXAMapViewController.h; sourceTree = "<group>"; };
+		BFE2F7FE20BE4D3A00F22E00 /* EXAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXAMapViewController.m; sourceTree = "<group>"; };
+		DA76399FAC1BD23A5A0B7FD9 /* Pods-CLAMap3DExmaple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLAMap3DExmaple.release.xcconfig"; path = "Pods/Target Support Files/Pods-CLAMap3DExmaple/Pods-CLAMap3DExmaple.release.xcconfig"; sourceTree = "<group>"; };
+		F696BC095342228976247E5C /* Pods_CLAMap3DExmaple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLAMap3DExmaple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFE2F78420BE36A700F22E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD741507F31AC20247A8A58 /* Pods_CLAMap3DExmaple.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E17705318F38920B2486E5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F696BC095342228976247E5C /* Pods_CLAMap3DExmaple.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFE2F77E20BE36A700F22E00 = {
+			isa = PBXGroup;
+			children = (
+				BFE2F78920BE36A700F22E00 /* CLAMap3DExmaple */,
+				BFE2F78820BE36A700F22E00 /* Products */,
+				D5FDA025799B5731470CBD56 /* Pods */,
+				1E17705318F38920B2486E5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE2F78820BE36A700F22E00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFE2F78720BE36A700F22E00 /* CLAMap3DExmaple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE2F78920BE36A700F22E00 /* CLAMap3DExmaple */ = {
+			isa = PBXGroup;
+			children = (
+				BFE2F7A220BE3F2600F22E00 /* AppDelegate */,
+				BFE2F7E320BE4D2600F22E00 /* CLAMap3D */,
+				BFE2F7F320BE4D3A00F22E00 /* Module */,
+				BFE2F7A020BE3DBF00F22E00 /* Resource */,
+			);
+			path = CLAMap3DExmaple;
+			sourceTree = "<group>";
+		};
+		BFE2F7A020BE3DBF00F22E00 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BFE2F79320BE36A800F22E00 /* Assets.xcassets */,
+				BFE2F7A120BE3E0B00F22E00 /* CLAMap3DExmaple-PrefixHeader.pch */,
+				BFE2F79820BE36A800F22E00 /* Info.plist */,
+				BFE2F79520BE36A800F22E00 /* LaunchScreen.storyboard */,
+				BFE2F79920BE36A800F22E00 /* main.m */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BFE2F7A220BE3F2600F22E00 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BFE2F78A20BE36A700F22E00 /* AppDelegate.h */,
+				BFE2F78B20BE36A700F22E00 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BFE2F7E320BE4D2600F22E00 /* CLAMap3D */ = {
+			isa = PBXGroup;
+			children = (
+				BFE2F7E420BE4D2600F22E00 /* CLAMapViewController */,
+			);
+			name = CLAMap3D;
+			path = ../../CLAMap3D;
+			sourceTree = "<group>";
+		};
+		BFE2F7E420BE4D2600F22E00 /* CLAMapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BFE2F7E520BE4D2600F22E00 /* CLAMap3D.h */,
+				BFE2F7E620BE4D2600F22E00 /* ViewModels */,
+				BFE2F7ED20BE4D2600F22E00 /* Controller */,
+			);
+			path = CLAMapViewController;
+			sourceTree = "<group>";
+		};
+		BFE2F7E620BE4D2600F22E00 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BFE2F7E720BE4D2600F22E00 /* CLAMapViewModel */,
+				BFE2F7EA20BE4D2600F22E00 /* CLAMapDelegate */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BFE2F7E720BE4D2600F22E00 /* CLAMapViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BFE2F7E820BE4D2600F22E00 /* CLAMapViewModel.h */,
+				BFE2F7E920BE4D2600F22E00 /* CLAMapViewModel.m */,
+			);
+			path = CLAMapViewModel;
+			sourceTree = "<group>";
+		};
+		BFE2F7EA20BE4D2600F22E00 /* CLAMapDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BFE2F7EB20BE4D2600F22E00 /* CLAMapDelegate.m */,
+				BFE2F7EC20BE4D2600F22E00 /* CLAMapDelegate.h */,
+			);
+			path = CLAMapDelegate;
+			sourceTree = "<group>";
+		};
+		BFE2F7ED20BE4D2600F22E00 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFE2F7EE20BE4D2600F22E00 /* CLAMapViewController.m */,
+				BFE2F7EF20BE4D2600F22E00 /* CLAMapViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFE2F7F320BE4D3A00F22E00 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				BFE2F7F420BE4D3A00F22E00 /* RootController */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		BFE2F7F420BE4D3A00F22E00 /* RootController */ = {
+			isa = PBXGroup;
+			children = (
+				BFE2F7FC20BE4D3A00F22E00 /* Controller */,
+				BFE2F7F520BE4D3A00F22E00 /* ViewModels */,
+			);
+			path = RootController;
+			sourceTree = "<group>";
+		};
+		BFE2F7F520BE4D3A00F22E00 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BFE2F7F620BE4D3A00F22E00 /* EXAMapDelegate */,
+				BFE2F7F920BE4D3A00F22E00 /* EXAMapViewModel */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BFE2F7F620BE4D3A00F22E00 /* EXAMapDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BFE2F7F720BE4D3A00F22E00 /* EXAMapDelegate.h */,
+				BFE2F7F820BE4D3A00F22E00 /* EXAMapDelegate.m */,
+			);
+			path = EXAMapDelegate;
+			sourceTree = "<group>";
+		};
+		BFE2F7F920BE4D3A00F22E00 /* EXAMapViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BFE2F7FB20BE4D3A00F22E00 /* EXAMapViewModel.h */,
+				BFE2F7FA20BE4D3A00F22E00 /* EXAMapViewModel.m */,
+			);
+			path = EXAMapViewModel;
+			sourceTree = "<group>";
+		};
+		BFE2F7FC20BE4D3A00F22E00 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFE2F7FD20BE4D3A00F22E00 /* EXAMapViewController.h */,
+				BFE2F7FE20BE4D3A00F22E00 /* EXAMapViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D5FDA025799B5731470CBD56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06F15AB071E932E564AC221A /* Pods-CLAMap3DExmaple.debug.xcconfig */,
+				DA76399FAC1BD23A5A0B7FD9 /* Pods-CLAMap3DExmaple.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFE2F78620BE36A700F22E00 /* CLAMap3DExmaple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE2F79D20BE36A800F22E00 /* Build configuration list for PBXNativeTarget "CLAMap3DExmaple" */;
+			buildPhases = (
+				B19AECC403F71CC509709944 /* [CP] Check Pods Manifest.lock */,
+				BFE2F78320BE36A700F22E00 /* Sources */,
+				BFE2F78420BE36A700F22E00 /* Frameworks */,
+				BFE2F78520BE36A700F22E00 /* Resources */,
+				1C48A88155047C2FD6EC2714 /* [CP] Embed Pods Frameworks */,
+				700D9F77FEE35C2DC8FA41EF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLAMap3DExmaple;
+			productName = CLAMap3DExmaple;
+			productReference = BFE2F78720BE36A700F22E00 /* CLAMap3DExmaple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFE2F77F20BE36A700F22E00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Cain Luo";
+				TargetAttributes = {
+					BFE2F78620BE36A700F22E00 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = BFE2F78220BE36A700F22E00 /* Build configuration list for PBXProject "CLAMap3DExmaple" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFE2F77E20BE36A700F22E00;
+			productRefGroup = BFE2F78820BE36A700F22E00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE2F78620BE36A700F22E00 /* CLAMap3DExmaple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFE2F78520BE36A700F22E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE2F79720BE36A800F22E00 /* LaunchScreen.storyboard in Resources */,
+				BFE2F79420BE36A800F22E00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C48A88155047C2FD6EC2714 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CLAMap3DExmaple/Pods-CLAMap3DExmaple-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CLFoundation/CLFoundation.framework",
+				"${BUILT_PRODUCTS_DIR}/CLUIKit/CLUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CLFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CLUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CLAMap3DExmaple/Pods-CLAMap3DExmaple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		700D9F77FEE35C2DC8FA41EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CLAMap3DExmaple/Pods-CLAMap3DExmaple-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CLAMap3DExmaple/Pods-CLAMap3DExmaple-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B19AECC403F71CC509709944 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLAMap3DExmaple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFE2F78320BE36A700F22E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE2F7FF20BE4D3A00F22E00 /* EXAMapDelegate.m in Sources */,
+				BFE2F7F120BE4D2600F22E00 /* CLAMapDelegate.m in Sources */,
+				BFE2F80020BE4D3A00F22E00 /* EXAMapViewModel.m in Sources */,
+				BFE2F79A20BE36A800F22E00 /* main.m in Sources */,
+				BFE2F80120BE4D3A00F22E00 /* EXAMapViewController.m in Sources */,
+				BFE2F78C20BE36A700F22E00 /* AppDelegate.m in Sources */,
+				BFE2F7F020BE4D2600F22E00 /* CLAMapViewModel.m in Sources */,
+				BFE2F7F220BE4D2600F22E00 /* CLAMapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFE2F79520BE36A800F22E00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE2F79620BE36A800F22E00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFE2F79B20BE36A800F22E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFE2F79C20BE36A800F22E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFE2F79E20BE36A800F22E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F15AB071E932E564AC221A /* Pods-CLAMap3DExmaple.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J26ST3TDCL;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CLAMap3dExmaple/Resource/CLAMap3DExmaple-PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/CLAMap3DExmaple/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cainLuo.CLAMap3DExmaple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFE2F79F20BE36A800F22E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA76399FAC1BD23A5A0B7FD9 /* Pods-CLAMap3DExmaple.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J26ST3TDCL;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CLAMap3dExmaple/Resource/CLAMap3DExmaple-PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/CLAMap3DExmaple/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cainLuo.CLAMap3DExmaple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFE2F78220BE36A700F22E00 /* Build configuration list for PBXProject "CLAMap3DExmaple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE2F79B20BE36A800F22E00 /* Debug */,
+				BFE2F79C20BE36A800F22E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE2F79D20BE36A800F22E00 /* Build configuration list for PBXNativeTarget "CLAMap3DExmaple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE2F79E20BE36A800F22E00 /* Debug */,
+				BFE2F79F20BE36A800F22E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFE2F77F20BE36A700F22E00 /* Project object */;
+}
