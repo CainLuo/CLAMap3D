@@ -1,0 +1,6 @@
+framework module Pods_CLAMap3DExmaple {
+  umbrella header "Pods-CLAMap3DExmaple-umbrella.h"
+
+  export *
+  module * { export * }
+}

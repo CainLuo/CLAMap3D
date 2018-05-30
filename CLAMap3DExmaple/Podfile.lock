@@ -1,0 +1,28 @@
+PODS:
+  - CLFoundation (1.7.0)
+  - CLUIKit (2.1.0):
+    - CLFoundation
+    - Masonry
+    - MJRefresh
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.3)
+
+DEPENDENCIES:
+  - CLUIKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CLFoundation
+    - CLUIKit
+    - Masonry
+    - MJRefresh
+
+SPEC CHECKSUMS:
+  CLFoundation: 6e97a2fb51d31537f31cf37a1059d09c15c2115a
+  CLUIKit: 138fe6643251a653decb517160e292eb65e8efc6
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+
+PODFILE CHECKSUM: 2c992537bf1f7c57f914aea90e38a719ce1a15c6
+
+COCOAPODS: 1.5.3
