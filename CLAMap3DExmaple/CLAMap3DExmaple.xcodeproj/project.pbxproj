@@ -130,8 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				BFE2F7E520BE4D2600F22E00 /* CLAMap3D.h */,
-				BFE2F7E620BE4D2600F22E00 /* ViewModels */,
 				BFE2F7ED20BE4D2600F22E00 /* Controller */,
+				BFE2F7E620BE4D2600F22E00 /* ViewModels */,
 			);
 			path = CLAMapViewController;
 			sourceTree = "<group>";
@@ -139,8 +139,8 @@
 		BFE2F7E620BE4D2600F22E00 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				BFE2F7E720BE4D2600F22E00 /* CLAMapViewModel */,
 				BFE2F7EA20BE4D2600F22E00 /* CLAMapDelegate */,
+				BFE2F7E720BE4D2600F22E00 /* CLAMapViewModel */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -157,8 +157,8 @@
 		BFE2F7EA20BE4D2600F22E00 /* CLAMapDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				BFE2F7EB20BE4D2600F22E00 /* CLAMapDelegate.m */,
 				BFE2F7EC20BE4D2600F22E00 /* CLAMapDelegate.h */,
+				BFE2F7EB20BE4D2600F22E00 /* CLAMapDelegate.m */,
 			);
 			path = CLAMapDelegate;
 			sourceTree = "<group>";
@@ -166,8 +166,8 @@
 		BFE2F7ED20BE4D2600F22E00 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BFE2F7EE20BE4D2600F22E00 /* CLAMapViewController.m */,
 				BFE2F7EF20BE4D2600F22E00 /* CLAMapViewController.h */,
+				BFE2F7EE20BE4D2600F22E00 /* CLAMapViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -246,7 +246,7 @@
 				BFE2F78420BE36A700F22E00 /* Frameworks */,
 				BFE2F78520BE36A700F22E00 /* Resources */,
 				1C48A88155047C2FD6EC2714 /* [CP] Embed Pods Frameworks */,
-				3359DF7220EE99A30A6A4333 /* [CP] Copy Pods Resources */,
+				700D9F77FEE35C2DC8FA41EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -326,7 +326,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CLAMap3DExmaple/Pods-CLAMap3DExmaple-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3359DF7220EE99A30A6A4333 /* [CP] Copy Pods Resources */ = {
+		700D9F77FEE35C2DC8FA41EF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -514,7 +514,10 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CLAMap3dExmaple/Resource/CLAMap3DExmaple-PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/CLAMap3DExmaple/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cainLuo.CLAMap3DExmaple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -531,7 +534,10 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CLAMap3dExmaple/Resource/CLAMap3DExmaple-PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/CLAMap3DExmaple/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cainLuo.CLAMap3DExmaple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
