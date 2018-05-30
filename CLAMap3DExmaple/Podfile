@@ -5,7 +5,7 @@ inhibit_all_warnings!
 
 target 'CLAMap3DExmaple' do
     
-#    pod 'AMap3DMap'
+	pod 'AMap3DMap'
     pod 'CLUIKit'
 
 end

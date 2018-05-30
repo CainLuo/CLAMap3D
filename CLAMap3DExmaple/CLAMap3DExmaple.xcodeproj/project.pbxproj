@@ -246,6 +246,7 @@
 				BFE2F78420BE36A700F22E00 /* Frameworks */,
 				BFE2F78520BE36A700F22E00 /* Resources */,
 				1C48A88155047C2FD6EC2714 /* [CP] Embed Pods Frameworks */,
+				3359DF7220EE99A30A6A4333 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -323,6 +324,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CLAMap3DExmaple/Pods-CLAMap3DExmaple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3359DF7220EE99A30A6A4333 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CLAMap3DExmaple/Pods-CLAMap3DExmaple-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CLAMap3DExmaple/Pods-CLAMap3DExmaple-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B19AECC403F71CC509709944 /* [CP] Check Pods Manifest.lock */ = {
